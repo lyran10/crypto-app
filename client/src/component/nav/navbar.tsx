@@ -169,11 +169,11 @@ export const NavBar = () => {
               />
             )}
           </li>
-          {showDropdown ? (
+          {/* {showDropdown ? (
             <li>
               <CurrencyDropDown position="absolute" />
             </li>
-          ) : null}
+          ) : null} */}
           <li>
             <HamburgerButton
               translateSideNav={translateSideNav}
